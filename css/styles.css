@@ -9,12 +9,12 @@
 .sunset{
     border: 2px beige;
 }
-@media screen and (max-width:480px){
-    body{
-        background-repeat: no-repeat;
-        background-image: linear-gradient(to right,blue 0%,red 100%),url('w3css.gif');
-        background-blend-mode:color-dodge;
-        text-align: center;
-        
-    }
+ body{
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to right,blue 0%,red 100%),url('w3css.gif');
+    background-blend-mode:color-dodge;
+    text-align: center;
+}
+#aboutme{
+    background-color: lightblue;
 }
