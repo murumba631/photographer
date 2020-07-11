@@ -1,0 +1,20 @@
+.heading1{
+    background-color: yellow;
+    width: 50%;
+}
+.heading2{
+    background-color: coral;
+    width: 35%;
+}
+.sunset{
+    border: 2px beige;
+}
+@media screen and (max-width:480px){
+    body{
+        background-repeat: no-repeat;
+        background-image: linear-gradient(to right,blue 0%,red 100%),url('w3css.gif');
+        background-blend-mode:color-dodge;
+        text-align: center;
+        
+    }
+}
