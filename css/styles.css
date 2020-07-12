@@ -10,11 +10,15 @@
     border: 2px beige;
 }
  body{
-    background-repeat: no-repeat;
+    background-repeat: round;
     background-image: linear-gradient(to right,blue 0%,red 100%),url('w3css.gif');
     background-blend-mode:color-dodge;
     text-align: center;
 }
 #aboutme{
-    background-color: lightblue;
+    background-image: cross-fade(to right,yellow 20%,yellowgreen 80% ),url(w3css.gif);
+}
+p{
+    font-size: 20px;
+    font-weight: 500;
 }
